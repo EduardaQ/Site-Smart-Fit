@@ -1,0 +1,462 @@
+*{
+  padding: 0;
+  margin: 0 ;
+}
+
+p{
+  font-family: gotham-book;
+}
+
+@font-face {
+  font-family: gotham-book;
+  src: url(fonts/gotham-book.woff2);
+}
+@font-face {
+  font-family: gotham-bold;
+  src: url(fonts/gotham-bold.woff2);
+}
+@font-face {
+  font-family: gotham-black;
+  src: url(fonts/gotham-black.woff2);
+}
+@font-face {
+  font-family: gotham-light;
+  src: url(fonts/gotham-light.woff2);
+}
+
+
+.titulo{
+  font-family: gotham-bold;
+  color:#333333;
+  margin-left: 240px;
+  margin-top: 30px;
+}
+
+.rentangulo {
+  height:8px;
+  width: 80px;
+  background-color: #333333;
+  margin-left: 240px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.texto{
+  margin-left: 240px;
+  margin-bottom: 40px;
+  font-size: larger;
+  font-family: gotham-book;
+}
+
+input{
+  margin-right: 10px;
+}
+
+ .bgdalogo{
+  background-color:#000000;
+ }
+
+ .logo1{
+  width: 160px;
+  margin-left: 680px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+ form{
+  border-color: #e9e9e9;
+  border-width: 4px ;
+  border-radius: 6px;
+  border-style: solid;
+  border-bottom-width: 7px;
+  height: 460px;
+  width: 1100px;
+  align-items: center;
+  margin-left: 240px;
+ }
+
+ .alinhar1{
+  display: flex;
+  margin-bottom: 20px;
+ }
+
+ .horario{
+  margin-left: 16px;
+  margin-top: 26px;
+  color:#9a9a9a;
+ }
+
+ .periodo{
+  margin-left: 20px;
+  color: #a9a9a9;
+  font-weight: 200;
+  font-family: gotham-book;
+ }
+
+.hr1{
+  margin-top: 12px;
+  margin-bottom: 15px;
+  border-top: 1px solid #b7b7b7;
+}
+
+hr{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: 1px solid #b7b7b7;
+}
+
+.relogio{
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 40px;
+  width: 40px;
+}
+
+label[for='manha']{
+  color:#9a9a9a;
+  font-family: gotham-book;
+}
+
+label[for='tarde']{
+  color:#9a9a9a;
+  font-family: gotham-book;
+}
+
+label[for='noite']{
+  color:#9a9a9a;
+  font-family: gotham-book;
+}
+
+.ue{
+  display: flex;
+}
+
+.textoue{
+margin-top: 40px;
+margin-left: 880px;
+}
+
+.zero{
+  margin-top: 39px;
+  margin-left: 10px;
+  font-family: gotham-bold;
+  font-size: larger;
+}
+
+.botao1{
+  background-color: #FFB612;
+  margin-top: 25px;
+  font-family: gotham-black;
+  color:#000000;
+  border-radius: 4px;
+  border: none;
+  height: 43px;
+  width: 290px;
+  margin-left: 240px;
+}
+
+.botao2{
+  border-radius: 4px;
+  border: solid;
+  border-color:#d6d6d6;
+  background-color: white;
+  height: 43px;
+  width: 290px;
+  border-width: 2px;
+  margin-left: 15px;
+  font-family: gotham-black;
+}
+
+input[type=radio]{
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: 20px;
+}
+
+input[type=checkbox]{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+label[for=EUF]{
+  margin-top: 40px;
+  font-family: gotham-book;
+}
+
+label{
+  color: #808080;
+}
+
+.label1{
+margin-left: 871px;
+}
+
+.label2{
+  margin-left: 880px;
+  }
+
+.label3{
+  margin-left: 878px;
+  }
+
+.rentangulo2{
+  height: 205px;
+  width: 1106px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  margin-left: 240px;
+  margin-top: 40px;
+}
+
+.coisas{
+  display: flex;
+}
+
+.mascara{
+  margin-left: 90px;
+  margin-top: 30px;
+  font-family: gotham-bold;
+}
+
+.toalha{
+  margin-left: 185px;
+  margin-top: 30px;
+  font-family: gotham-bold;
+}
+
+.bebedouro{
+margin-left: 165px;
+margin-top: 30px;
+font-family: gotham-bold;
+}
+
+.vestiarios{
+  margin-left: 220px;
+  margin-top: 30px;
+  font-family: gotham-bold;
+}
+
+.mascara1{
+height: 75px;
+width: 75px;
+margin-left: 30px;
+margin-top: 20px;
+}
+
+.mascara2{
+  height: 75px;
+  width: 75px;
+  margin-left: 30px;
+}
+
+.toalha1{
+  height: 75px;
+  width: 75px;
+  margin-left: 60px;
+}
+
+.toalha2{
+  height: 75px;
+  width: 75px;
+  margin-left: 30px;
+}
+
+.garrafa1{
+  height: 75px;
+  width: 75px;
+  margin-left: 50px;
+}
+
+.garrafa2{
+  height: 75px;
+  width: 75px;
+  margin-left: 30px;
+}
+
+.cabide1{
+  height: 75px;
+  width: 75px;
+  margin-left: 60px;
+}
+
+.cabide2{
+  height: 75px;
+  width: 75px;
+  margin-left: 30px;
+}
+
+.cabide3{
+  height: 75px;
+  width: 75px;
+  margin-left: 30px;
+}
+
+.alinhar2{
+  display: flex;
+  margin-top: 5px;
+}
+
+.obrigatorio1{
+margin-left: 15px;
+}
+
+.recomendado1{
+  margin-left: 15px;
+}
+
+.obrigatorio2{
+margin-left: 35px;
+}
+
+.recomendado2{
+margin-left: 12px;
+}
+
+.parcial1{
+margin-left: 35px;
+}
+
+.proibido1{
+  margin-left: 48px;
+}
+
+.liberado{
+  margin-left: 72px;
+}
+
+.parcial2{
+  margin-left: 46px;
+}
+
+.proibido2{
+  margin-left: 50px;
+}
+
+.alinhar3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 55px;
+  width: 1577px;
+}
+
+.retangulo3{
+  height: 460px;
+  width: 330px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  margin-top: 15px;
+  box-shadow: 0 0 5px #b7b7b7;
+}
+
+.retangulo4{
+  height: 460px;
+  width: 330px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  margin-top: 15px;
+  box-shadow: 0 0 5px #b7b7b7
+}
+
+.aberto{
+  margin-left: 15px;
+  margin-top: 17px;
+  color:#2FC022;
+  font-family: gotham-bold;
+}
+
+.vicente{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  margin-top: 13px;
+}
+
+.imgvicente{
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 65px;
+  width: 65px;
+}
+
+.alinhar4{
+  font-family: gotham-bold;
+  color:#333333;
+  margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.sab{
+  margin-left: 25px;
+  color:#333333;
+}
+
+.seisas22{
+  margin-top: 10px;
+}
+
+.noveas18{
+margin-left: 82px;
+margin-top: 10px;
+}
+
+.alinhar5{
+  display: flex;
+  margin-left: 15px;
+}
+
+.dom{
+  margin-left: 15px;
+  font-family: gotham-bold;
+  margin-top: 10px;
+  color:#333333;
+}
+
+.fechado{
+  margin-left: 15px;
+  margin-top: 17px;
+  color: #dc0a17;
+  font-family: gotham-bold;
+}
+
+.local{
+  font-family: gotham-bold;
+  color:#333333;
+  margin-left: 15px;
+  margin-top: 13px;
+}
+
+.endereco{
+  margin-left: 15px;
+  margin-top: 15px;
+  color: #9a9a9a;
+  margin-bottom: 10px;
+}
+
+.retangulo5{
+  height: 460px;
+  width: 330px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  margin-top: 15px;
+  box-shadow: 0 0 5px #b7b7b7
+}
+
+.logo2{
+  width: 100px;
+  margin-left: 730px;
+  margin-top: 30px;
+ }
+
+ .direitos{
+  margin-left: 630px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-family: gotham-book;
+ }
+
+ footer {
+  background-color:#333333;
+  color:rgb(255, 255, 255);
+}
